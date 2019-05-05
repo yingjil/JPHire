@@ -32,6 +32,6 @@ public class DemoControllerTest {
 
     @Test
     public void demo() throws Exception {
-        mvc.perform(MockMvcRequestBuilders.get("/demo/report")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("This is a demo, the author is 张晓智, 29 years old boy."));
+        mvc.perform(MockMvcRequestBuilders.get("/demo/report")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("This is a demo, the author is zhangxiaozhi, 29 years old boy."));
     }
 }
