@@ -5,5 +5,5 @@ Test Description: we want to build a solution to hire the right people quickly. 
 Definition of done:
 1. In this Github(Name: JPHire) project, build a web server which can be run on any Linux box.
 2. Use Java as the main development language unless there is a solid reason for other choice.
-3. The main page of the website should display the content of the latest TestX file. The X will crease continuously.
+3. The main page of the website should display the content of the latest TestX file. The X will increase continuously.
 4. The UT coverage must > 80% if not 100%.
