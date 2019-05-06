@@ -15,14 +15,13 @@ import javax.annotation.Resource;
  * @since demo 1.0.0
  */
 @RestController
-@RequestMapping(value = "/demo")
 public class DemoController {
 
     @Resource
     private DemoService demoService;
 
-    @GetMapping(value = "/report")
-    public String demo() {
+    @GetMapping(value = "/")
+    public String mainPage() {
         return demoService.demo();
     }
 }
