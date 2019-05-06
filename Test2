@@ -1,0 +1,9 @@
+Note: if you cannot finish the test, you may still get the chance to next step of the hiring process if some shinning points were identified from your work: if you finish the work, you may still fail because your outcome did not meet the hiring bar.
+
+Test Description: we want to build a solution to hire the right people quickly. The development work of this solution is part of the solution. As a candidate, please contribute your idea and finish the assignment.
+
+Definition of done:
+1. Based on Test1, please setup a new URL /dog to display the picture of a random dog. 
+2. The picture should be from the internet rather than a local file.
+3. UT coverage > 80% if not 100%
+4. Provide test evidence like screenshots to show the completion of 2 and 3.
