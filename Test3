@@ -1,0 +1,13 @@
+Note: if you cannot finish the test, you may still get the chance to next step of the hiring process if some shinning points were identified from your work: if you finish the work, you may still fail because your outcome did not meet the hiring bar.
+Background: we want to build a solution to hire the right people quickly. The development work of this solution is part of the solution. As a candidate, please contribute your idea and finish the assignment.
+Common requirements:
+1. Use Java as the main development language unless there is a solid reason for other choice.
+2. Provide test evidence (like the snapshot of the output of your solution) to easy the reviewer.
+3. The UT coverage must > 80% if not 100%.
+4. Please try to leverage the existing functionality of this project although it's always fine to refactor them.
+
+Test Description: for any key words, please get the 1st non-AD search result from baidu.com.
+
+Definition of done:
+1. Define a mechanism for the user to provide the key words.
+2. The result will be shown on a web page (you may define the URL) of this project.
