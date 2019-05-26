@@ -1,9 +1,11 @@
 package com.example.demo.controller;
 
-import org.springframework.beans.factory.annotation.Value;
+import com.example.demo.service.DemoService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * The demo class for JPHire.
@@ -13,17 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @since demo 1.0.0
  */
 @RestController
-@RequestMapping(value = "/demo")
 public class DemoController {
 
-    @Value("${demo.author.name}")
-    private String name;
+    @Resource
+    private DemoService demoService;
 
-    @Value("${demo.author.age}")
-    private String age;
-
-    @RequestMapping(value = "/report", method = RequestMethod.GET)
-    public String demo() {
-        return "This is a demo, the author is " + name + ", " + age + " years old boy.";
+    @GetMapping(value = "/")
+    public String mainPage() {
+        return demoService.demo();
     }
 }
