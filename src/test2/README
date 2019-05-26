@@ -1,0 +1,3 @@
+The web framework implemented by python flask web framework.
+The dog image is from ImageNet dataset.
+At first I download imagenet dog image url list.When requests comes choose a url randomly and download it.if success send it to user ohtherwise try next random url untill getting it.
